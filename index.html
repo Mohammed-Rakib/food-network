@@ -16,7 +16,18 @@
     <main>
         <!-- header section start -->
         <header>
-            <div class="header">
+            <nav>
+                <h2>Food Network</h2>
+                <menu>
+                    <ul>
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#recipies">Recipies</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </menu>
+            </nav>
+            <div class="header" id="header">
                 <div class="main__header">
                     <div class="header__right">
                         <h1 class="header__title"><span class="simple_text">Skip</span> The Diet <br>Just Eat Healthy
@@ -35,22 +46,22 @@
             </div>
         </header>
         <!-- about section start -->
-        <div class="about">
+        <div class="about" id="about">
             <div class="about__container">
                 <div class="left__row">
                     <img class="about__image" src="images/Person Image.png" alt="">
                 </div>
                 <div class="right__row">
-                    <h1 class="about__title">About Me</h1>
+                    <h1 class="about__title">About Us</h1>
                     <p class="about__description">Are you hungry? Did you have a long and stressful day? Interested in
                         getting a cheesy pizza delivered to your home or office? Then foodpanda Bangladesh is the right
                         destination for you! foodpanda offers you a long and detailed list of the best restaurants. </p>
-                    <a class="simple__btn" href="https://md-rakibulislam.web.app/">Contact Me</a>
+                    <a class="simple__btn" href="#contact">Contact Us</a>
                 </div>
             </div>
         </div>
         <!-- recipies section start -->
-        <div class="recipies">
+        <div class="recipies" id="recipies">
             <div class="recipies__container">
                 <h1 class="recipies__title">My Recipies</h1>
                 <p class="recipies__description">
@@ -103,6 +114,16 @@
                     <p>Dribble short likes</p>
                 </div>
             </div>
+        </div>
+        <!-- contact form -->
+        <div class="contact" id="contact">
+            <h1 class="contact-title">Contact Us</h1>
+            <form action="">
+                <input type="text" placeholder="Enter your name">
+                <input type="text" placeholder="Enter your Email">
+                <textarea name="" placeholder="Message" cols="30" rows="10"></textarea>
+                <a class="simple__btn" href="">Submit</a>
+            </form>
         </div>
         <!-- footer -->
         <footer class="footer">
